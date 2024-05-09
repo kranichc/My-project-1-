@@ -156,6 +156,7 @@ MonoBehaviour:
   - {fileID: 987295975682293607, guid: 930a2b04ff18948499dabe9cc1ec0b4d, type: 3}
   - {fileID: 4625699447029470810, guid: edf078d5d4267544eba7939200c48b48, type: 3}
   - {fileID: 405596223054025489, guid: 70b7a85222a83264588ad9085c1f7a91, type: 3}
+  animalIndex: 1
 --- !u!4 &17036750
 Transform:
   m_ObjectHideFlags: 0
@@ -770,6 +771,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 405596222741324671, guid: 70b7a85222a83264588ad9085c1f7a91, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 405596223054025489, guid: 70b7a85222a83264588ad9085c1f7a91, type: 3}
       propertyPath: m_Name
       value: Dog_SaintBernard_01
@@ -827,6 +832,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 987295974983955884, guid: 930a2b04ff18948499dabe9cc1ec0b4d, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 987295975681827863, guid: 930a2b04ff18948499dabe9cc1ec0b4d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -988,6 +997,10 @@ PrefabInstance:
     - target: {fileID: 4625699447029684264, guid: edf078d5d4267544eba7939200c48b48, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625699447330699813, guid: edf078d5d4267544eba7939200c48b48, type: 3}
+      propertyPath: speed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edf078d5d4267544eba7939200c48b48, type: 3}
