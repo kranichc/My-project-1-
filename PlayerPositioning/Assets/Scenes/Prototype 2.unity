@@ -123,6 +123,53 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &17036748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17036750}
+  - component: {fileID: 17036749}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &17036749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17036748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d259db9743771304aab030c5b6f98e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 987295975682293607, guid: 930a2b04ff18948499dabe9cc1ec0b4d, type: 3}
+  - {fileID: 4625699447029470810, guid: edf078d5d4267544eba7939200c48b48, type: 3}
+  - {fileID: 405596223054025489, guid: 70b7a85222a83264588ad9085c1f7a91, type: 3}
+--- !u!4 &17036750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17036748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0000017881393, y: 1.5131397, z: 1.8482405}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &24759780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -273,11 +320,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50.000004, y: -60.000004, z: 0}
---- !u!1 &410705899 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 905323580510325700, guid: a6462680e38f3cb43a1a7d4f6ccda499, type: 3}
-  m_PrefabInstance: {fileID: 1512140416}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,7 +762,7 @@ MonoBehaviour:
   speed: 10
   leftBoundary: -10
   rightBoundary: 10
-  projectilePrefab: {fileID: 410705899}
+  projectilePrefab: {fileID: 905323580510325700, guid: a6462680e38f3cb43a1a7d4f6ccda499, type: 3}
 --- !u!1001 &405596223099688426
 PrefabInstance:
   m_ObjectHideFlags: 0
